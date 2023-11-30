@@ -1,0 +1,133 @@
+header: {
+	background-color: black;
+	max-width: 960px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px 40px 40px 40px;
+}
+nav{
+	color: #00ee00;
+	font-size: 20px;
+}
+body{
+	background-color: black;	
+	font-family: 'Courier', 'Courier New', monospace;
+	color: #00ee00;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+main{
+	margin: 0 auto;
+	padding: 40px 40px 40px 40px;
+	max-width: 1200px
+}
+.hero-image{
+	background-image: url('images/lines.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:60px;
+}
+footer{
+	color: #00ee00
+	padding: 20px 20px 20px 20px;
+}
+#header{
+	width: 100%;
+}
+ul li{
+	display: inline;
+	padding: 10px;
+}
+/* unvisited link */
+a:link {
+  color: #00ee00;
+}
+
+/* visited link */
+a:visited {
+  color: #	#005f00;
+}
+
+/* mouse over link */
+a:hover {
+  color: yellow;
+}
+
+/* selected link */
+a:active {
+  color: #008e00;
+}
+.content-wrapper{
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.logo{
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	padding: 20px;
+}
+.fav{
+	margin: 0 auto;
+	padding: 15px;
+	font-size: 2em;
+}
+.small{
+	padding-bottom: 20px;
+}
+.navmenu{
+	position: relative;
+  min-height: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 25px;
+  border: 5px solid;
+  margin: 0 auto;
+}
+.gallery {
+  --s: 150px; /* control the size */
+  display: grid;
+  grid: auto-flow var(--s) / repeat(2,var(--s));
+  gap: 10px;
+  margin: calc(var(--s)/2);
+  transform: rotate(45deg);
+	justify-content: center;
+	padding-bottom: 50px;
+}
+.gallery > img {
+  width: 141%; /* sqrt(2)*100% */
+  aspect-ratio: 1;
+  object-fit: cover;
+  filter: grayscale(80%);
+  transform: scale(var(--_t,1)) rotate(-45deg);
+  clip-path: polygon(50% 0,100% 50%,50% 100%,0 50%);
+  cursor: pointer;
+  transition: .2s linear;
+}
+.gallery > img:hover {
+  filter: grayscale(0);
+  --_t: 1.15;
+}
+.container-clothes{
+	padding: 40px;
+	display: inline;
+}
+.button{
+	color: #00ee00;
+}
+/* CSS for Tablets */
+
+@media only screen and (max-width: 1024px){
+	h1{
+		font-size:2em;
+	}
+}
+
+/* CSS for Smartphones */
+
+@media only screen and (max-width: 768px){
+	h1{
+		font-size:1.5em;
+	}
+}
