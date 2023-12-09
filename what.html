@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Wavelength Wares</title>
+      <link rel="icon" type="image/png" href="images/favicon.png" />
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Learn about the concept of Etheralism and how it inspires Wavelength Wares.">
+      <meta name="Sam Yang" content="Sam Yang">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://kit.fontawesome.com/1c60c0a50a.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+   </head>
+   <body>
+      <div class="content-wrapper">
+         <header>
+            <img src="images/logo-white.png" alt="logo" height="145" width="193" class="img-fluid logo">
+         </header>
+         <nav>
+         <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="what.html">What Is Etherealism?</a></li>
+               </ul>
+            </div>
+         </nav>
+         <main>
+         	<!--The image paired with the defintion of Ethereal lends an otherwordly, and alien like feel.-->
+            <div class="col-sm-12">
+               <h1>What is Etheralism?</h1>
+               <br>
+            </div>
+            <div class="col-sm-12">
+               <div class="etext">
+                  <p>E·the·re·al<br><br>
+                  is defined as being “extremely delicate and light in a way that seems too perfect for this world.”</p>
+               </div>
+            </div>
+            <div class="col-sm-12">
+               <div class="elist">
+                  <p>Etherealism is a fictional fashion movement that looks to achieve an exquisite, slick, and otherworldly aesthetic with the use of:</p>
+                  <ol>
+                     <li>Futuristic</li>
+                     <li>Experimental</li>
+                     <li>Multiple Layers</li>
+                     <li>High Contrasts Colors</li>
+                     <li>Lighting</li>
+                  </ol>
+               </div>
+            </div>
+           	<img src="images/cyber-circle.jpg" width="400" height="400" alt="A man kneeling inside of a hole cut out of a wall." class="img-fluid">
+      </main>
+      <footer>
+         <div class="col-sm-12">
+            <hr>
+            <div class="footerlist">
+               <div class="col-sm-4">		
+                  <a href="https://www.instagram.com/tkaen.io/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+               </div>
+               <div class="col-sm-4">
+                  <a href="https://x.com/tkaen_io/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+               </div>
+               <div class="col-sm-4">
+                  <a href="https://scyaj.tumblr.com/" target="_blank"><i class="fa-brands fa-tumblr"></i></a>
+               </div>
+            </div>
+            <div class="footertext">
+               <div class="col-sm-12">
+                  <p>Wavelength Wares is a student project, and fictional store set in a cyberpunk universe. Products on the site are for educational purposes only, and are not intended for actual purchase.</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-sm-12">
+            <small>&copy; Wavelength Wares.	All Rights Reserved</small>
+         </div>
+      </footer>
+      <!--jQuery, Popper, and Bootstrap Javascript files-->
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+      <script>
+         let nav = document.querySelector("nav");
+           window.onscroll = function() {
+             if(document.documentElement.scrollTop > 20){
+               nav.classList.add("sticky");
+             }else {
+               nav.classList.remove("sticky");
+             }
+           }
+      </script>
+      </div>
+   </body>
+</html>
