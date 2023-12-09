@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Wavelength Wares</title>
+      <link rel="icon" type="image/png" href="images/favicon.png" />
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Explore the main themes behind Wavelength Wares.">
+      <meta name="Sam Yang" content="Sam Yang">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://kit.fontawesome.com/1c60c0a50a.js" crossorigin="anonymous"></script>
+      <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+   </head>
+   <body>
+      <div class="content-wrapper">
+         <header>
+            <img src="images/logo-white.png" alt="logo" height="145" width="193" class="img-fluid logo">
+         </header>
+         <nav>
+         <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+               <ul class="nav navbar-nav">
+                  <li class="active"><a href="index.html">Home</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="what.html">What Is Etherealism?</a></li>
+               </ul>
+            </div>
+         </nav>
+         <main>
+            <div class="col-sm-12">
+               <h1>Wavelength Wares' Story<h1>
+            </div>
+            <div class="col-sm-12">
+               <p>Wavelength Wares, and this website are inspired by retro computers, aesthetics of the 80s/90s, and cyberpunk in general. This project ombines the coding knowledge I've gained over this semester, as well as being a practice in creativity, and world building.</p>
+            </div>
+            <div class="styleg">
+               <h2>Style Guide</h2>
+               <h3>This fictional universe was made with the following themes in mind:</h3>
+               <!--Three themes are in heirarchy in order of importance.-->
+               <div class="col-sm-12">
+                  <h3>Ethereal</h3>
+                  <p>While Etherealism isn't a real movement (to my knowledge), I've always thought it a beautiful word. Also a juxtaposition to the usually dark, and devilish aesthetic of cyberpunk. </p>
+               </div>
+               <div class="col-sm-6">
+                  <h3>Retro-Futurism</h3>
+                  <p>Chunky buttons, tactile feedback, neon strips. A mix of old, and new technology.</p>
+               </div>
+               <div class="col-sm-6">
+                  <h3>E-Commerce</h3>
+                  <p>Though outside the scope of the Coding class, I wanted to challenge myself, and not "get too comfortable" with variety of websites already taught.</p>
+               </div>
+            </div>
+            <br>
+            <div class="col-sm-12">
+               <h3>Have a question, or want to discuss this project?</h3>
+            </div>
+            <div class="emails">
+               <div class="col-sm-12">
+                  <div class="col-sm-6">
+                     <p>Work Email</p>
+                     <div class="email-1">
+                        <a href="mailto:samacyang@gmail.com" target="blank"><i class="fa-solid fa-envelope"></i>
+                     </div>
+                     </a>
+                  </div>
+                  <div class="col-sm-6">
+                     <p>School Email</p>
+                     <div class="email-2">
+                        <a href="mailto:th3447xe@go.minnstate.edu"><i class="fa-regular fa-envelope"></i></a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </main>
+         <footer>
+            <div class="col-sm-12">
+               <hr>
+               <div class="footerlist">
+                  <div class="col-sm-4">		
+                     <a href="https://www.instagram.com/tkaen.io/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                  </div>
+                  <div class="col-sm-4">
+                     <a href="https://x.com/tkaen_io/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                  </div>
+                  <div class="col-sm-4">
+                     <a href="https://scyaj.tumblr.com/" target="_blank"><i class="fa-brands fa-tumblr"></i></a>
+                  </div>
+               </div>
+               <div class="footertext">
+                  <div class="col-sm-12">
+                     <p>Wavelength Wares is a student project, and fictional store set in a cyberpunk universe. Products on the site are for educational purposes only, and are not intended for actual purchase.</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-12">
+               <small>&copy; Wavelength Wares.	All Rights Reserved</small>
+            </div>
+         </footer>
+         <!--jQuery, Popper, and Bootstrap Javascript files-->
+         <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+         <script>
+            let nav = document.querySelector("nav");
+              window.onscroll = function() {
+                if(document.documentElement.scrollTop > 20){
+                  nav.classList.add("sticky");
+                }else {
+                  nav.classList.remove("sticky");
+                }
+              }
+         </script>
+      </div>
+   </body>
+</html>
